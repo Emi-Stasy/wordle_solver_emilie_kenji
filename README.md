@@ -24,14 +24,14 @@ des filtres pour réduire progressivement la liste jusqu’à trouver le mot cor
 ---
 
 ## Installation
-# 1. Cloner le projet
+###  1. Cloner le projet
 
 ```bash
    cd Documents
    git clone <url-du-repo>
    cd wordle_solver_nom1_nom2
 ```
-# 2. Verifier les fichiers
+###  2. Verifier les fichiers
 
 Assurez-vous que :
 - Le dossier 'ressource/' contient 'bdd_wordle.txt'
