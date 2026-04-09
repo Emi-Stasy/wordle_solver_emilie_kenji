@@ -35,7 +35,7 @@ int charger_dict(char mots[][LEN_MOT], const char *chemin){
 	return nb;
 }
 
-void afficher_mots(char mots[][LEN_MOT], int nb, const char *mot){
+void afficher_mot(char mots[][LEN_MOT], int nb, const char *mot){
 	printf("\n%d mot(s) possible(s) :\n", nb);
 	for (int i = 0; i < nb; i++){
 		printf("%s\n", mots[i]);

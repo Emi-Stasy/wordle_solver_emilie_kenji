@@ -6,9 +6,9 @@ int main() {
     char mots[MAX_MOTS][LEN_MOT];
     char resultat[MAX_MOTS][LEN_MOT];
 
-    int nb = charger_dict(mots, "ressource/bdd_wordle.txt");
+    int nb = charger_dict(mots, "../ressource/bdd_wordle.txt");
 
-    if (nb == 0) {
+    if (nb != 0) {
         printf("Erreur chargement mots\n");
         return 1;
     }
